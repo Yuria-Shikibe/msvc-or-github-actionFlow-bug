@@ -14,7 +14,7 @@ int main(){
 	//must invoke this, should be the problem of -/+ operation between std::chrono::duration;
 	std::this_thread::sleep_for(std::chrono::microseconds(10));
 
-	// constexpr Test::Test02 test02{};
+	//This getSpacing Function is an additional condition, maybe
 	std::cout << Test::getSpacing(std::chrono::milliseconds(10), std::chrono::milliseconds(20)) << std::endl;
 	return 0;
 }
