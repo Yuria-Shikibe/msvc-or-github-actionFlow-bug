@@ -6,4 +6,4 @@ When I compile the project in local devices, this doesn't pop an error, but as y
 
 I have no idea whether this is a msvc bug or GitHub workflow bug.
 
-**See The `main.cpp` for more detail**
+**See the `main.cpp` for more detail**
