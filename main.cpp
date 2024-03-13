@@ -1,5 +1,4 @@
 #include <chrono>
-#include <iostream>
 #include <thread>
 //Include above the import or beneath it both cause this problem
 
@@ -16,6 +15,6 @@ int main(){
 	std::this_thread::sleep_for(std::chrono::microseconds(10));
 
 	//This getSpacing Function is an additional condition, maybe
-	std::cout << Test::getSpacing(std::chrono::milliseconds(10), std::chrono::milliseconds(20)) << std::endl;
+	Test::getSpacing(std::chrono::milliseconds(10), std::chrono::milliseconds(20));
 	return 0;
 }
