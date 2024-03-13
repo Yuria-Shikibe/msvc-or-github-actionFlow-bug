@@ -8,7 +8,8 @@
 
 // Haven't Test Include Header File yet
 // Only Module triggers compile failure, currently
-import ChronoTest;
+// import ChronoTest;
+#include "src/chrono_test.h"
 
 int main(){
 	//must invoke this, should be the problem of -/+ operation between std::chrono::duration;
