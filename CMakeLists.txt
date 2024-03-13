@@ -32,7 +32,7 @@ add_executable(
         ${PROJECT_NAME}      #[[Project Name]]
         ${SOURCE_FILES}      #[[.cpp]]
         ${CURRENT_HEADERS}   #[[.h]]
-        main.cpp
+        main.cppm
 )
 
 target_sources(${PROJECT_NAME}
