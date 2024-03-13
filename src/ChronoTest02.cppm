@@ -1,10 +1,10 @@
-export module ChronoTest.T02;
+export module ChronoTest;
 
 import <chrono>;
 
 export namespace Test{
 	struct Test02 {
-		auto getSpacing(std::chrono::milliseconds p1, std::chrono::milliseconds p2){
+		auto getSpacing(const std::chrono::milliseconds p1, const std::chrono::milliseconds p2) const {
 			return p1 - p2;
 		}
 	};
